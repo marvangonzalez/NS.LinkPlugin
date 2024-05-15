@@ -34,5 +34,5 @@ $coursename = format_string($course->fullname);
 $mode = ($helloworld->exammode) ? 'Examen' : 'Normal';
 
 echo $OUTPUT->header();
-echo $OUTPUT->heading('Hola Mundo, ' . $username . ' en el curso ' . $coursename . ' en modo ' . $mode);
+echo $OUTPUT->heading('<iframe src="https://nsplus.netlify.app/" height="600px" width="600px" title="W3Schools Free Online Web Tutorials"></iframe>');
 echo $OUTPUT->footer();
